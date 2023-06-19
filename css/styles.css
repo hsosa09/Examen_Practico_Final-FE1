@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+body{
+    width: 480px;
+}
+
+body>header>section{
+    display: flex;
+    padding: 10%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 47px;
+}
+
+.imagen-padel{
+    display: inline-block;
+    margin-bottom: 10%;
+}
+
+.imagen-padel>img{
+    max-width: 86%; 
+    height: auto;
+}
+
+main>section{
+    text-align: center;
+}
+
+.texto-LIVE{
+    text-align: center;
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.texto-LIVE>*{
+    margin: 5%;
+    text-align: right;
+}
+.botonMorado{
+    background-color: #8B48BF;
+    border-radius: 50px;
+    color: white;
+    width: 134px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    font-size: 13px;
+}
+
+.texto-LIVE>h1{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 114.6%;
+}
+
+.whatsDifferentBetweenPros{
+    background: #3CDDF3;
+    width: 100%;
+}
+
+.whatsDifferentBetweenPros2>h2{
+    display: flex;
+    align-items: center;
+    color: rgb(249, 249, 249);
+    font-size: 36px;
+    line-height: 114.6%;
+    
+    text-align: start;
+    padding: 5%;
+}
+
+.whatsDifferentBetweenPros2>p{
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 151.1%;
+    text-align: start;
+    padding: 5%;
+}
+
+
+
+
+
+.tresPuntosCont{
+    margin: 10% 7% 10% 7%;
+}
+
+.tresPuntos{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 5%;
+}
+
+.tresPuntos>h4{
+    padding: 3% 6% 3% 6%;
+    color: rgb(249, 249, 249);
+    background-color: #8B48BF;
+    border-radius: 30px;
+}
+
+.tresPuntos>h3{
+    display: flex;
+    padding: 3% 6% 3% 6%;
+}
+
+.tresPuntosCont>div>p{
+    color: #B3B2B7;
+    text-align: left;
+    padding: 0% 0% 7% 1%;
+}
+
+
+
+
+
+.bestofthemonth{
+    padding: 5%;
+}
+
+.bestofthemonth>div>h2{
+    font-size: 39px;
+    line-height: 156.6%;
+    padding-bottom: 20%;
+}
+
+.bestofthemonthtexto{
+    background-color: #FAFAFA;
+    padding: 0 5% 5% 5%;
+    margin-bottom: 10%;
+}
+.bestofthemonthtexto>h6{
+    padding: 0 0% 5% 0%;
+}
+
+.bestofthemonthimagen{
+    position: relative;
+    bottom: 35px;
+}
+
+.bestofthemonth>div>p{
+    color: #B9B9C1;
+}
+
+.bestofthemonthboton{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.bestTeams{
+    background-color: #3CDDF3;
+    padding: 5% 16% 10% 16%;
+    margin-top: 10%;
+}
+
+.bestTeams>div>h2{
+    font-size: 40px;
+    line-height: 48px;
+    padding: 10% 0 16% 0;
+    color: white;
+}
+
+.bestTeamsBoton{
+    display: flex;
+    justify-content: center;
+}
+
+.bestTeamsBoton>button{
+    background-color: #232C50;;
+    border-radius: 50px;
+    color: white;
+    width: 134px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (width >= 480) {
+
+
+
+}
